@@ -1,0 +1,16 @@
+C:\Users\Linzer\documents\visual studio 2015\Projects\PuzzleSceneUtil\PuzzleSceneUtil\bin\Release\PuzzleSceneUtil.exe.config
+C:\Users\Linzer\documents\visual studio 2015\Projects\PuzzleSceneUtil\PuzzleSceneUtil\bin\Release\PuzzleSceneUtil.exe
+C:\Users\Linzer\documents\visual studio 2015\Projects\PuzzleSceneUtil\PuzzleSceneUtil\bin\Release\PuzzleSceneUtil.pdb
+C:\Users\Linzer\documents\visual studio 2015\Projects\PuzzleSceneUtil\PuzzleSceneUtil\obj\Release\MainWindow.g.cs
+C:\Users\Linzer\documents\visual studio 2015\Projects\PuzzleSceneUtil\PuzzleSceneUtil\obj\Release\App.g.cs
+C:\Users\Linzer\documents\visual studio 2015\Projects\PuzzleSceneUtil\PuzzleSceneUtil\obj\Release\PuzzleSceneUtil_MarkupCompile.cache
+C:\Users\Linzer\documents\visual studio 2015\Projects\PuzzleSceneUtil\PuzzleSceneUtil\obj\Release\PuzzleSceneUtil_MarkupCompile.lref
+C:\Users\Linzer\documents\visual studio 2015\Projects\PuzzleSceneUtil\PuzzleSceneUtil\obj\Release\MainWindow.baml
+C:\Users\Linzer\documents\visual studio 2015\Projects\PuzzleSceneUtil\PuzzleSceneUtil\obj\Release\PuzzleSceneUtil.g.resources
+C:\Users\Linzer\documents\visual studio 2015\Projects\PuzzleSceneUtil\PuzzleSceneUtil\obj\Release\PuzzleSceneUtil.Properties.Resources.resources
+C:\Users\Linzer\documents\visual studio 2015\Projects\PuzzleSceneUtil\PuzzleSceneUtil\obj\Release\PuzzleSceneUtil.csproj.GenerateResource.Cache
+C:\Users\Linzer\documents\visual studio 2015\Projects\PuzzleSceneUtil\PuzzleSceneUtil\obj\Release\PuzzleSceneUtil.exe
+C:\Users\Linzer\documents\visual studio 2015\Projects\PuzzleSceneUtil\PuzzleSceneUtil\obj\Release\PuzzleSceneUtil.pdb
+C:\Users\Linzer\documents\visual studio 2015\Projects\PuzzleSceneUtil\PuzzleSceneUtil\obj\Release\PuzzleResourceWindow.g.cs
+C:\Users\Linzer\documents\visual studio 2015\Projects\PuzzleSceneUtil\PuzzleSceneUtil\obj\Release\GeneratedInternalTypeHelper.g.cs
+C:\Users\Linzer\documents\visual studio 2015\Projects\PuzzleSceneUtil\PuzzleSceneUtil\obj\Release\PuzzleResourceWindow.baml

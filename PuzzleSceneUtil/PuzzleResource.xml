@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Puzzle>
+  <PuzzleRes>
+    <SectionRes>
+      <String>梦梅</String>
+      <String>写真</String>
+      <String>伤情</String>
+      <String>拾画</String>
+      <String>月华</String>
+      <String>惊梦</String>
+      <String>寻梦</String>
+    </SectionRes>
+    <MusicRes>
+      <String>回梦游仙</String>
+      <String>焚梅煮酒</String>
+      <String>亦真亦幻</String>
+      <String>黯然销魂</String>
+      <String>画壁</String>
+      <String>千年缘</String>
+      <String>游园惊梦</String>
+    </MusicRes>
+    <SceneRes>
+      <String>1.1</String>
+      <String>1.2</String>
+      <String>1.3</String>
+    </SceneRes>
+    <ResolutionRes>
+      <Resolution width="960" height="640">iphone 4</Resolution>
+      <Resolution width="1136" height="640">iphone 5(s)</Resolution>
+      <Resolution width="1334" height="750">iphone 6</Resolution>
+      <Resolution width="1920" height="1080">iphone 6 plus</Resolution>
+    </ResolutionRes>
+    <SizeRes>
+      <Int>120</Int>
+      <Int>150</Int>
+      <Int>100</Int>
+      <Int>50</Int>
+    </SizeRes>
+    <BackgroundRes>
+      <String>寻梦</String>
+      <String>梦梅</String>
+      <String>写真</String>
+      <String>伤情</String>
+      <String>拾画</String>
+      <String>月华</String>
+      <String>惊梦</String>
+    </BackgroundRes>
+  </PuzzleRes>
+  <GameRes>
+    <Section name="梦梅" music="回梦游仙">
+      <Scene name="1.1" background="寻梦">
+        <SceneResol width="960" height="640" device="iphone 4" size="120">
+          <Programme id="1">
+            <Cube type="1">(0,0,0)</Cube>
+            <Cube type="2">(0,0,0)#(0,0,0)</Cube>
+            <Cube type="3">(0,0,0)#(0,0,0)</Cube>
+            <Cube type="4">(0,0,0)#(0,0,0)</Cube>
+            <Cube type="5">(0,0,0)#(0,0,0)</Cube>
+            <Cube type="6">(0,0,0)#(0,0,0)#(0,0,0)#(0,0,0)</Cube>
+            <Cube type="7">(0,0,0)#(0,0,0)</Cube>
+          </Programme>
+        </SceneResol>
+      </Scene>
+    </Section>
+  </GameRes>
+</Puzzle>

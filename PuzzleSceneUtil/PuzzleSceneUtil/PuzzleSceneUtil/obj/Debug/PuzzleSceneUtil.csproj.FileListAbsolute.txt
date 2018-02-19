@@ -1,0 +1,17 @@
+C:\Users\Linzer\documents\visual studio 2015\Projects\PuzzleSceneUtil\PuzzleSceneUtil\bin\Debug\PuzzleSceneUtil.exe.config
+C:\Users\Linzer\documents\visual studio 2015\Projects\PuzzleSceneUtil\PuzzleSceneUtil\bin\Debug\PuzzleSceneUtil.exe
+C:\Users\Linzer\documents\visual studio 2015\Projects\PuzzleSceneUtil\PuzzleSceneUtil\bin\Debug\PuzzleSceneUtil.pdb
+C:\Users\Linzer\documents\visual studio 2015\Projects\PuzzleSceneUtil\PuzzleSceneUtil\obj\Debug\MainWindow.g.cs
+C:\Users\Linzer\documents\visual studio 2015\Projects\PuzzleSceneUtil\PuzzleSceneUtil\obj\Debug\PuzzleResourceWindow.g.cs
+C:\Users\Linzer\documents\visual studio 2015\Projects\PuzzleSceneUtil\PuzzleSceneUtil\obj\Debug\App.g.cs
+C:\Users\Linzer\documents\visual studio 2015\Projects\PuzzleSceneUtil\PuzzleSceneUtil\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Linzer\documents\visual studio 2015\Projects\PuzzleSceneUtil\PuzzleSceneUtil\obj\Debug\PuzzleSceneUtil_MarkupCompile.cache
+C:\Users\Linzer\documents\visual studio 2015\Projects\PuzzleSceneUtil\PuzzleSceneUtil\obj\Debug\PuzzleSceneUtil_MarkupCompile.lref
+C:\Users\Linzer\documents\visual studio 2015\Projects\PuzzleSceneUtil\PuzzleSceneUtil\obj\Debug\MainWindow.baml
+C:\Users\Linzer\documents\visual studio 2015\Projects\PuzzleSceneUtil\PuzzleSceneUtil\obj\Debug\PuzzleResourceWindow.baml
+C:\Users\Linzer\documents\visual studio 2015\Projects\PuzzleSceneUtil\PuzzleSceneUtil\obj\Debug\PuzzleSceneUtil.g.resources
+C:\Users\Linzer\documents\visual studio 2015\Projects\PuzzleSceneUtil\PuzzleSceneUtil\obj\Debug\PuzzleSceneUtil.Properties.Resources.resources
+C:\Users\Linzer\documents\visual studio 2015\Projects\PuzzleSceneUtil\PuzzleSceneUtil\obj\Debug\PuzzleSceneUtil.csproj.GenerateResource.Cache
+C:\Users\Linzer\documents\visual studio 2015\Projects\PuzzleSceneUtil\PuzzleSceneUtil\obj\Debug\PuzzleSceneUtil.exe
+C:\Users\Linzer\documents\visual studio 2015\Projects\PuzzleSceneUtil\PuzzleSceneUtil\obj\Debug\PuzzleSceneUtil.pdb
+C:\Users\Linzer\documents\visual studio 2015\Projects\PuzzleSceneUtil\PuzzleSceneUtil\obj\Debug\PuzzleSceneUtil.csprojResolveAssemblyReference.cache

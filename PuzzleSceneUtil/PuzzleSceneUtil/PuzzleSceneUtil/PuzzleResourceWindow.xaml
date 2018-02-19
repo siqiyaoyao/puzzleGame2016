@@ -1,0 +1,90 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PuzzleSceneUtil"
+        xmlns:System="clr-namespace:System;assembly=mscorlib" x:Class="PuzzleSceneUtil.PuzzleResourceWindow"
+        mc:Ignorable="d"
+        Title="添加资源" Height="600" Width="600"  MinWidth="600" MinHeight="600" Foreground="White"  Background="#FF161616">
+    <ScrollViewer x:Name="resourceSV" HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto">
+        <StackPanel Margin="0,5,0,0">
+            <Expander Header="章节" Foreground="White">
+                <StackPanel Margin="0,5,0,0">
+                    <ListView x:Name="sectionLV" Background="#FF333337" Foreground="White" ItemsSource="{Binding SectionRes}" />
+                    <Button Content="[- 删除]" VerticalAlignment="Bottom" Height="20" Background="#FF1F1F20" BorderThickness="0" Margin="5" Foreground="White" Click="sectionLV_delete" />
+                    <TextBox x:Name="sectionTB" Height="50" VerticalAlignment="Bottom" Background="#FF333337" Foreground="White" />
+                    <Button Content="[+ 添加]" VerticalAlignment="Bottom" Height="20" Background="#FF1F1F20" BorderThickness="0" Margin="5" Foreground="White" Click="sectionLV_add" />
+                </StackPanel>
+            </Expander>
+
+            <Separator Background="#FF333333" Margin="0,5"/>
+
+            <Expander Header="配乐" Foreground="White">
+                <StackPanel Margin="0,5,0,0">
+                    <ListView x:Name="musicLV" Background="#FF333337" Foreground="White"  ItemsSource="{Binding MusicRes}" />
+                    <Button Content="[- 删除]" VerticalAlignment="Bottom" Height="20" Background="#FF1F1F20" BorderThickness="0" Margin="5" Foreground="White" Click="musicLV_delete"/>
+                    <TextBox x:Name="musicTB" Height="50" VerticalAlignment="Bottom" Background="#FF333337" Foreground="White" />
+                    <Button Content="[+ 添加]" VerticalAlignment="Bottom" Height="20" Background="#FF1F1F20" BorderThickness="0" Margin="5" Foreground="White" Click="musicLV_add"/>
+                </StackPanel>
+            </Expander>
+
+            <Separator Background="#FF333333" Margin="0,5"/>
+
+            <Expander Header="场景" Foreground="White">
+                <StackPanel Margin="0,5,0,0">
+                    <ListView x:Name="sceneLV" Background="#FF333337" Foreground="White"  ItemsSource="{Binding SceneRes}" />
+                    <Button Content="[- 删除]" VerticalAlignment="Bottom" Height="20" Background="#FF1F1F20" BorderThickness="0" Margin="5" Foreground="White" Click="sceneLV_delete"/>
+                    <TextBox x:Name="sceneTB" Height="50" VerticalAlignment="Bottom" Background="#FF333337" Foreground="White" />
+                    <Button Content="[+ 添加]" VerticalAlignment="Bottom" Height="20" Background="#FF1F1F20" BorderThickness="0" Margin="5" Foreground="White"  Click="sceneLV_add"/>
+                </StackPanel>
+            </Expander>
+
+            <Separator Background="#FF333333" Margin="0,5"/>
+
+            <Expander Header="背景" Foreground="White">
+                <StackPanel Margin="0,5,0,0">
+                    <ListView x:Name="backgroundLV" Background="#FF333337" Foreground="White" ItemsSource="{Binding BackgroundRes}" />
+                    <Button Content="[- 删除]" VerticalAlignment="Bottom" Height="20" Background="#FF1F1F20" BorderThickness="0" Margin="5" Foreground="White" Click="backgroundLV_delete"/>
+                    <TextBox x:Name="backgroundTB" Height="50" VerticalAlignment="Bottom" Background="#FF333337" Foreground="White" />
+                    <Button Content="[+ 添加]" VerticalAlignment="Bottom" Height="20" Background="#FF1F1F20" BorderThickness="0" Margin="5" Foreground="White" Click="backgroundLV_add"/>
+                </StackPanel>
+            </Expander>
+            
+            <Separator Background="#FF333333" Margin="0,5"/>
+
+            <Expander Header="分辨率" Foreground="White">
+                <StackPanel Margin="0,5,0,0">
+                    <ListView x:Name="resolutionLV" Background="#FF333337" Foreground="White"  ItemsSource="{Binding ResolutionRes}" />
+                    <Button Content="[- 删除]" VerticalAlignment="Bottom" Height="20" Background="#FF1F1F20" BorderThickness="0" Margin="5" Foreground="White" Click="resolutionLV_delete"/>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Height="20" Text="宽" Margin="5"/>
+                        <TextBox x:Name="widthTB" Height="20" Background="#FF333337" Foreground="White" Margin="5" Width="50" />
+                        <TextBlock Height="20" Text="像素" Margin="5"/>
+                        <TextBlock Height="20" Text="高" Margin="5"/>
+                        <TextBox x:Name="heightTB" Height="20" Background="#FF333337" Foreground="White" Margin="5" Width="50" />
+                        <TextBlock Height="20" Text="像素" Margin="5"/>
+                        <TextBlock Height="20" Text="适用设备" Margin="5"/>
+                        <TextBox x:Name="deviceTB" Height="20" Background="#FF333337" Foreground="White" Margin="5" Width="200" />
+                    </StackPanel>
+                    <Button Content="[+ 添加]" VerticalAlignment="Bottom" Height="20" Background="#FF1F1F20" BorderThickness="0" Margin="5" Foreground="White" Click="resolutionLV_add"/>
+                </StackPanel>
+            </Expander>
+
+            <Separator Background="#FF333333" Margin="0,5"/>
+
+            <Expander Header="尺寸" Foreground="White">
+                <StackPanel Margin="0,5,0,0">
+                    <ListView x:Name="sizeLV" Background="#FF333337" Foreground="White" ItemsSource="{Binding SizeRes}" />
+                    <Button Content="[- 删除]" VerticalAlignment="Bottom" Height="20" Background="#FF1F1F20" BorderThickness="0" Margin="5" Foreground="White" Click="sizeLV_delete"/>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Height="20" Text="可选尺寸" Margin="5"/>
+                        <TextBox x:Name="sizeTB" Height="20" Background="#FF333337" Foreground="White" Margin="5" Width="50" />
+                        <TextBlock Height="20" Text="像素" Margin="5"/>
+                    </StackPanel>
+                    <Button Content="[+ 添加]" VerticalAlignment="Bottom" Height="20" Background="#FF1F1F20" BorderThickness="0" Margin="5" Foreground="White" Click="sizeLV_add"/>
+                </StackPanel>
+            </Expander>
+        </StackPanel>
+    </ScrollViewer>
+</Window>
